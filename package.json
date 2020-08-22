@@ -1,6 +1,6 @@
 {
   "name": "react-query",
-  "displayName": "react-query",
+  "displayName": "React Query Snippets",
   "description": "Snippets for React Query",
   "version": "0.0.1",
   "engines": {
@@ -13,9 +13,15 @@
   "contributes": {
     "snippets": [
       {
-        "language": "javascript",
+        "languages": [
+          "javascript",
+          "typescript",
+          "typescriptreact",
+          "javascriptreact"
+        ],
         "path": "./snippets/snippets.code-snippets"
       }
     ]
-  }
+  },
+  "repository": "https://github.com/sayinserdar/react-query-snippet.git"
 }
