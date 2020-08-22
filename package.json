@@ -1,0 +1,21 @@
+{
+  "name": "react-query",
+  "displayName": "react-query",
+  "description": "Snippets for React Query",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.48.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "publisher": "sayinserdar",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+## React query snippet extension
