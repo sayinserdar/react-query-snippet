@@ -19,7 +19,7 @@ This extension aims to accelerate development speed in projects that use React Q
 
 ## React Query Snippets
 
-Here you can see the available snippets for now.
+Here you can see the available snippets for now. Will be updated soon for other possible snippets
 
 | Snippet | Content                                                                |
 | ------: | ---------------------------------------------------------------------- |
@@ -47,9 +47,7 @@ Serdar Sayın - **srdrsayin(at)gmail(dot)com**
 
 <a style="display: flex; align-items: center;" href="https://twitter.com/sayin_serdar">
 <img src="assets/Twitter_Social_Icon_Circle_Color.png" alt="Twitter" width="32" >
-<span style="padding-left: 10px;">@sayin_serdar</span>
 </a>
-<a style="display: flex; align-items: center;" href="https://github.com/sayinserdar">
+<a style="display: flex; align-items: center; margin-left: 10px" href="https://github.com/sayinserdar">
 <img src="assets/GitHub-Mark-32px.png" alt="Github" width="32" >
-<span style="padding-left: 10px;">@sayinserdar</span>
 </a>
