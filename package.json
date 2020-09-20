@@ -9,6 +9,7 @@
   "categories": [
     "Snippets"
   ],
+  "icon": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
   "publisher": "sayinserdar",
   "contributes": {
     "snippets": [

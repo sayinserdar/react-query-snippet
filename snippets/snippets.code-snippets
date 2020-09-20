@@ -86,5 +86,68 @@
       "})"
     ],
     "description": "React Query - useInfiniteQuery - https://react-query.tanstack.com/docs/api#usepaginatedquery"
+  },
+  "React query Functional Component Result": {
+    "prefix": "rqc",
+    "body": [
+      "",
+      "const ${1} = () => {",
+      "  if (status === 'idle') {",
+      "    return <span>Not ready... </span>;",
+      "  }",
+      "",
+      "  if (status === 'loading') {",
+      "    return (<span>Loading... </span>);",
+      "  }",
+      "  if (status === 'error ') {",
+      "    return (",
+      "      <span>",
+      "        Error:",
+      "        {error.message}",
+      "      </span>",
+      "    );",
+      "  }",
+      "",
+      "  if (data) {",
+      "    return (",
+      "      <div>{data}</div>",
+      "    );",
+      "  }",
+      "  return null;",
+      "};"
+    ],
+    "description": "rqc"
+  },
+  "rqct": {
+    "prefix": "rqct",
+    "body": [
+      "{status === 'idle' ? (",
+      "  'Not ready...'",
+      ") : status === 'loading' ? (",
+      " <div>Loading...</div>",
+      ") : isError ? (",
+      "  <span>{error.message}</span>",
+      ") : (",
+      "  <div>{data}</div>",
+      "    ",
+      ")}"
+    ],
+    "description": "rqct"
+  },
+  "rqs": {
+    "prefix": "rqs",
+    "body": [
+      "if (status === 'idle') {",
+      "  return <span>Not ready...</span>;",
+      "}"
+    ],
+    "description": "rqs"
+  },
+  "iq": {
+    "prefix": "iq",
+    "body": [
+      "queryCache.invalidateQueries([${1},{${2}: ${3}}])"
+    ],
+    "description": "iq"
   }
 }

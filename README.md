@@ -21,13 +21,17 @@ This extension aims to accelerate development speed in projects that use React Q
 
 Here you can see the available snippets for now.
 
-| Snippet | Content                                                |
-| ------: | ------------------------------------------------------ |
-|    `uq` | Generates **useQuery** with API call                   |
-|    `um` | Generates **useMutation** with API call                |
-|   `uiq` | Generates **useInfinteQueries** with API call          |
-|   `uqp` | Generates **useQuery** with one parameter and API call |
-|   `upq` | Generates **usePaginatedQuery** with API call          |
+| Snippet | Content                                                                |
+| ------: | ---------------------------------------------------------------------- |
+|    `uq` | Generates **useQuery** with API call                                   |
+|    `um` | Generates **useMutation** with API call                                |
+|   `uiq` | Generates **useInfinteQueries** with API call                          |
+|   `uqp` | Generates **useQuery** with one parameter and API call                 |
+|   `upq` | Generates **usePaginatedQuery** with API call                          |
+|   `rqc` | Generates a functional component with possible outcomes                |
+|  `rqct` | Generates a functional component with possible outcomes (ternary)      |
+|   `rqs` | Generates an if statement with status                                  |
+|    `iq` | Generates **queryCache.invalidateQueries** invalidateQueries statement |
 
 ## License
 
